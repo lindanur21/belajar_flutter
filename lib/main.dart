@@ -2,10 +2,14 @@ import 'package:belajar/column_widget.dart';
 import 'package:belajar/container_widget.dart';
 import 'package:belajar/latihan1_widget.dart';
 import 'package:belajar/latihan2_widget.dart';
+import 'package:belajar/latihan3_1.dart';
 import 'package:belajar/latihan3_widget.dart';
+import 'package:belajar/listview/list_builder.dart';
+import 'package:belajar/listview/list_separated.dart';
 import 'package:belajar/row_column.dart';
 import 'package:belajar/row_wigdet.dart';
 import 'package:flutter/material.dart';
+import 'listview/list_basic.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +28,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.black,
           title: Center(child: Text("Belajar Flutter")),
         ),
-        body: Latihan3(),
+        body: Latihan3_1(),
       ),
     );
   }
