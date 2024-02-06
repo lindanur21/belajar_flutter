@@ -1,4 +1,5 @@
 import 'package:belajar/screens/home_screen.dart';
+import 'package:belajar/screens/input_booking.dart';
 import 'package:belajar/screens/input_form.dart';
 import 'package:belajar/screens/list_screen.dart';
 import 'package:belajar/screens/second_screen.dart';
@@ -17,7 +18,7 @@ class _NavigationMenuState extends State<NavigationMenu> {
   List _pages = [
     HomeScreen(),
     ListWisataScreen(),
-    BelajarForm()
+    FormBooking()
   ];
 
   _changeTab(int index) {

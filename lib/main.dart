@@ -13,6 +13,7 @@ import 'package:belajar/listview/list_separated.dart';
 import 'package:belajar/row_column.dart';
 import 'package:belajar/row_wigdet.dart';
 import 'package:belajar/screens/home_screen.dart';
+import 'package:belajar/screens/input_booking.dart';
 import 'package:belajar/screens/input_form.dart';
 import 'package:belajar/screens/list_screen.dart';
 import 'package:belajar/screens/menu_screen.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => NavigationMenu(),
         'second': (context) => ListWisataScreen(),
-        'third':(context) => BelajarForm()
+        'third':(context) => FormBooking()
       },
     );
   }
